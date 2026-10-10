@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.nova {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 2px solid grey;
+    padding: 10px;
+}
+
+
+.logo {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    padding: 10px;
+}
+
+li {
+    display: block;
+    padding: 10px;
+}
+
+li a {
+    margin: 0px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.nova-btn {
+    padding: 10px;
+}
+
+button {
+    font-size: medium;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+}
+
+.nova-content {
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    justify-content: space-between;
+
+}
+
+h5 {
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+h1 {
+    margin: 20px auto;
+}
+
+.learn-btn {
+    margin: 20px auto;
+}
+
+.nova-team {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 20px;
+}
+
+.nova-item1 {
+    display: flex;
+}
+
+.nova-item2 {
+    display: flex;
+}
+
+.nova-item3 {
+    display: flex;
+}
+
+
+@media (max-width:560px) {
+    .nova-team {
+        flex-direction: column;
+
+    }
+
+    .nova-content {
+        flex-direction: column;
+
+    }
+    .nova-item1 {
+    margin-bottom: 20px;
+}
+
+.nova-item2 {
+    margin-bottom: 20px;
+}
+
+.nova-item3 {
+    margin-bottom: 20px;
+}
+}
+
+i {
+    font-size: larger;
+    font-weight: bold;
+    color: blue;
+
+}
+
+i.fa-solid.fa-arrow-right {
+    color: white;
+    font-size: medium;
+}
+
+.text {
+    margin-left: 20px;
+}
