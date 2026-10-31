@@ -6,7 +6,7 @@
 
 
 
-.nova {
+header {
     display: flex;
     justify-content: space-between;
     background-color: white;
@@ -49,6 +49,25 @@ button {
     background-color: blue;
     color: white;
     border-radius: 20px;
+}
+
+.hand {
+    display: none;
+}
+@media (max-width:768px) {
+    ul{
+        display: none;
+    }
+    .nova-btn {
+    display: none;
+}
+.hand{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+}
+    
+    
 }
 
 .nova-content {
@@ -103,17 +122,18 @@ h1 {
         flex-direction: column;
 
     }
+
     .nova-item1 {
-    margin-bottom: 20px;
-}
+        margin-bottom: 20px;
+    }
 
-.nova-item2 {
-    margin-bottom: 20px;
-}
+    .nova-item2 {
+        margin-bottom: 20px;
+    }
 
-.nova-item3 {
-    margin-bottom: 20px;
-}
+    .nova-item3 {
+        margin-bottom: 20px;
+    }
 }
 
 i {
